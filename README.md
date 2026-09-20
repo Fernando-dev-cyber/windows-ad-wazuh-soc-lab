@@ -10,7 +10,7 @@ Implementación de un entorno de detección defensivo (Blue Team) para auditar e
 
 ## 🏗️ Arquitectura de Red
 - **Endpoint Víctima / DC:** Windows Server 2022 (IP: `192.168.18.217` / Dominio: `labdefensivo.local` / Hostname: `DC01`)
-- **SIEM / Telemetría:** Wazuh SIEM v4.9.0 (Manager, Indexer, Dashboard) sobre Docker en Linux Host (`192.168.10.50`)
+- **SIEM / Telemetría:** Wazuh SIEM v4.9.0 (Manager, Indexer, Dashboard) sobre Docker en Linux Host (`10.0.0.50`)
 - **Canal de Transporte:** Canal cifrado agente-servidor (TCP 1514)
 
 [ Windows Server 2022 (DC01) ]
